@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="./ejerciciopeliculas.xslt"?>
+<cartelera>
+<pelicula id="1">
+<titulo>Aquellas juergas universitarias</titulo>
+<titulo_original>Old School</titulo_original>
+<director>Todd Phillips</director>
+<interpretes>
+<nombre>Will Ferrell</nombre>
+<nombre>Luke Wilson</nombre>
+<nombre>Vince Vaughn</nombre>
+<nombre>Jeremy Piven</nombre>
+<nombre>Juliette Lewis</nombre>
+<nombre>Sean William Scott</nombre>
+</interpretes>
+<imagen>https://pics.filmaffinity.com/old_school-265380324-mmed.jpg</imagen>
+<descripcion>Mitch, Frank y Beanie son tres amigos treintañeros cuyas vidas no son exactamente lo que esperaban. Mitch tiene una novia ninfómana que se mete en la cama con el primero que agarra. Frank se ha casado y su matrimonio nada tiene que ver con las juergas salvajes que organizaban años atrás. Y Beanie es un padre de familia que se muere por recuperar su alocada juventud. Pero las cosas cambian cuando Beanie sugiere que creen su propia fraternidad, en la nueva casa que Mitch tiene junto al campus de la universidad. Una ocasión para revivir tiempos gloriosos, hacer nuevos amigos y de volver a sus viejas, salvajes y desmadradas juergas de estudiantes.</descripcion>
+<web>http://www.oldschool-themovie.com/
+</web>
+<calificacion>Comedia autorizada para mayores de 16 años
+</calificacion>
+</pelicula>
+<pelicula id ="2">
+<titulo>American Playboy</titulo>
+<director>David Mackenzie</director>
+<interpretes>
+<nombre>Ashton Kutcher</nombre>
+<nombre>Amy Motta</nombre>
+<nombre>Miguel Moro</nombre>
+<nombre>Monirul Alom</nombre>
+</interpretes>
+<imagen>https://pics.filmaffinity.com/spread-379175173-mmed.jpg</imagen>
+<descripcion>Nikki (Ashton Kutcher) llega a Los Ángeles con una idea muy clara: aprovecharse de su atractivo físico para poder vivir gratis en las increíbles casas de sus amantes. No trabaja ni tiene ganas de hacerlo, así que sencillamente se ha convertido en el amante perfecto. Una noche conoce a Samantha (Anne Heche), una abogada soltera y madura que le invita a quedarse en su casa de Hollywood Hills por un tiempo. Pero todo cambia cuando Nikki conoce a Heather (Margarita Levieva), una joven camarera comprometida de la cual se enamora. Tendrá entonces que plantearse si quiere seguir con la vida de lujo que lleva o iniciar otra completamente distinta</descripcion>
+<calificacion>Apto para todos los públicos</calificacion>
+</pelicula>
+<pelicula id="3">
+<titulo>Algo pasa con Mary</titulo>
+<titulo_original>There's something about Mary</titulo_original>
+<director>Peter Farrelly, Bobby Farrelly</director>
+<interpretes>
+<nombre>Cameron Diaz</nombre>
+<nombre>Ben Stiller</nombre>
+</interpretes>
+<imagen>https://pics.filmaffinity.com/there_s_something_about_mary-465333352-mmed.jpg</imagen>
+<descripcion>Ted (Ben Stiller), un torpe y tímido adolescente, tiene una cita de graduación con la chica de sus sueños, Mary Jensen (Cameron Diaz). La cita es un desastre cuando Ted tiene un doloroso y humillante problema con la cremallera de su pantalón y tiene que ir al hospital. Mary se traslada a otro estado lejos de Ted, y nunca se volvieron a ver.
+
+Trece años después, éste sigue enamorado de Mary. Por consejo de su mejor amigo Dom (Chris Elliott), decide contratar a un detective privado llamado Pat (Matt Dillon) para encontrarla; sólo que Pat también se enamora de Mary. Ted y Pat acaban mintiéndose, engañándose en su competencia por Mary y descubren que no son sólo ellos los únicos que toman medidas desesperadas para estar cerca de Mary.</descripcion>
+<web>Null</web>
+<calificacion>Todos los públicos</calificacion>
+</pelicula>
+<pelicula id="4">
+<titulo>La Playa</titulo>
+<director>Danny Boyle</director>
+<interpretes>
+<nombre>Di Caprio</nombre>
+<nombre>Virginie Ledoyen</nombre>
+</interpretes>
+<imagen>https://pics.filmaffinity.com/the_beach-814683684-mmed.jpg</imagen>
+<descripcion>
+Richard (Leonardo DiCaprio), es un joven estadounidense en Tailandia. Ha llegado al sudeste de Asia con la intención de experimentar algo radicalmente diferente de su vida. Él se entera de la existencia de una isla que se supone que es el paraíso, pero que es comúnmente considerada mítica. En esta isla se supone que hay una secreta comunidad de viajeros que han dejado atrás su vida anterior. Richard inicialmente rechaza la existencia de la isla, pero más tarde se reúne con un hombre llamado Daffy (Robert Carlyle), que le dice a Richard que es un antiguo habitante y le da un mapa de la isla; poco después Daffy se suicida.
+</descripcion>
+<calificacion>Mayores de 12 años</calificacion>
+</pelicula>
+<pelicula id="5">
+<titulo>El lobo de wall street</titulo>
+<titulo_original>The wolf of wall street</titulo_original>
+<director>Martin Scorsese</director>
+<interpretres>
+<nombre>Jesus Novoa</nombre>
+<nombre>Jesus Zumaeta</nombre>
+<nombre>Raul Castaño</nombre>
+</interpretres>
+<imagen>https://pics.filmaffinity.com/the_wolf_of_wall_street-675195906-mmed.jpg</imagen>
+<descripcion>La película comienza con un comercial de televisión narrado por Gene Hackman donde promueve la firma Stratton Oakmont. La escena corta a la sede de la misma compañía donde muchas personas andan drogadas y ebrias. Jordan Belfort (Leonardo DiCaprio) luego narra cómo logró tener una gran esposa, una gran mansión en Long Island, un gran Ferrari y volverse multimillonario.
+
+El joven Jordan Belfort decide trabajar en Wall Street en la firma de Mark Hanna (Matthew McConaughey), el cual le aconseja sobre cómo vivir en Wall Street: las drogas, en especial la cocaína ya que según sus propias palabras: "mantiene el cerebro despierto y hace que logres teclear rápido", masturbación, ya que según sus palabras: "La sangre fluye, consigue tácticas" y sexo con prostitutas.
+</descripcion>
+<calificacion>Para todos los publicos</calificacion>
+</pelicula>
+</cartelera>

@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html>
+ <head>
+        <meta charset="utf-8">
+        <link rel="stylesheet" type="text/css" href="../css/style.css">
+        <link rel="stylesheet" type="text/css" href="../css/style2.css">
+        <link rel="shortcut icon" href="./imagenes/logo.png">
+        <title>Blog</title>
+    </head>
+    <body>
+	
+         <div class="contenedor">
+		<header>
+			<div class="logo">
+				<img  class="logo2" src="../imagenes/logo-linux.png" alt="logo">
+			</div>
+ 
+			<nav>
+				<a href="../index.html">Inicio</a>
+				<a href="../paginas/multimedia.html">Multimedia</a>
+                <a href="./contacto.html">Contacto</a>
+				<a href="./mapa.html">Mapa</a>
+				<a href="../xml/ejercicioPeliculas.xml">XML</a>
+				
+			</nav>
+		</header>
+ 
+		<section class="main">
+	        <form method="post">
+         <fieldset>
+             <legend>Datos Personales</legend>
+			 <label for="nombre">Nombre:</label>
+			 <input type="text" name="nombre" id="nombre" size="30" maxlength="50" placeholder="Nombre">
+			 <br>
+			 <br>
+             <label for="apellido1">Apellido 1</label>
+			 <input type="text" name="apellido1" id="apellido1" size="30" maxlength="50" placeholder="Primer apellido">
+             <label for="apellido2">Apellido 2</label>
+			 <input type="text" name="apellido2" id="apellido2" size="30" maxlength="50" placeholder="Segundo apellido">	
+			 <br>
+			 <br>
+			 <label for="email">Dirección de correo</label>
+			 <input type="email" id="email" name="email" placeholder="Email">
+			 <label for="telefono">Teléfono</label>
+			 <input type="tel" id="telefono" name="telefono" placeholder="Número de teléfono">
+			 <br>
+			 <br>
+			 <label for="codigopostal">Código Postal</label>
+			 <input type="number" id="codigopostal" name="codigopostal" placeholder="Código Postal">
+			 <br>
+			 <br>
+			 Sexo
+			 <br>
+			 <label for="masculino"></label>
+			 <input type="radio" name="sexo" id="masculino" value="masculino" checked>Masculino
+			 <label for="femenino"></label>
+			 <input type="radio" name="sexo" id="femenino" value="femenino">Femenino
+			 <br>
+			 <br>
+			 Interés
+			 <br>
+			 <label for="informatica"></label>
+			 <input type="checkbox" name="informatica" id="informatica">Informática
+			 <label for="publicidad"></label>
+			 <input type="checkbox" name="publicidad" id="publicidad">Publicidad
+			 <label for="mecanica"></label>
+			 <input type="checkbox" name="mecanica" id="mecanica">Mecánica
+         </fieldset>
+         <fieldset>
+		     <legend>Estudios</legend>
+			 <label for="estudios"></label>
+			 <select id="estudios" name="estudios">
+			 <optgroup label="Grado Medio">
+			 <option value="Técnico en Sistemas Microinformáticos y Redes">Técnico en Sistemas Microinformáticos y Redes</option>
+			 </optgroup>
+			 <optgroup label="Grado Superior">
+			 <option value="Administración de Sistemas Informáticos en Red">Administración de Sistemas Informáticos en Red</option>
+			 <option value="Desarrollo de Aplicaciones Multiplataforma">Desarrollo de Aplicaciones Multiplataforma</option>
+			 <option value="Desarrollo de Aplicaciones Web">Desarrollo de Aplicaciones Web</option>
+			 </optgroup>
+			 </select>
+			 <br>
+			 <br>
+			 Ciudad
+			 <br>
+			 <label for="ciudades"></label>
+			 <select id="ciudades" name="ciudades" multiple="multiple">
+			 <option>Madrid</option>
+			 <option>Villalba</option>
+             <option>Fuenlabrada</option>
+             <option>Móstoles</option>
+             </select>			 
+         </fieldset>
+		 <fieldset>
+		     <legend>Comentario:</legend>
+			 <textarea rows="5" cols="50" name="comentario" placeholder="Escribe aqui un comentario"></textarea>
+		 </fieldset>
+		 <input type="submit" Value="Enviar">
+		 <input type="reset" Value="Resetear">
+	 </form>
+            <div class="social">
+		      <ul>
+			     <li><a href="http://www.facebook.com" target="_blank" class="icon-facebook"></a></li>
+			     <li><a href="http://www.twitter.com" target="_blank" class="icon-twitter"></a></li>
+			     <li><a href="http://www.googleplus.com" target="_blank" class="icon-google-plus"></a></li>
+                 <li><a href="http://www.googleplus.com" target="_blank" class="icon-github"></a></li>
+		      </ul>
+			</div>
+		</section>
+        <aside>
+			Email: monirulalom1995@gmail.com
+			<br>
+			Teléfono móvil: 640 02 66 19
+        </aside>
+		<footer>
+			<section class="links">
+				<a rel="license" href="http://creativecommons.org/licenses/by-nc/4.0/"><img alt="Licencia de Creative Commons" style="border-width:0" src="https://i.creativecommons.org/l/by-nc/4.0/88x31.png" /></a><br />Este obra está bajo una <a rel="license" href="http://creativecommons.org/licenses/by-nc/4.0/">licencia de Creative Commons Reconocimiento-NoComercial 4.0 Internacional</a>.
+			</section>	
+		</footer>
+	</div>
+    </body>
+</html>

@@ -1,0 +1,270 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+ 
+.grafica{
+    width: 80%;
+}
+.bitcoin{
+    width: 50%;
+}
+h1 {
+	text-align:center;
+	}
+.contenedor {
+	background:#ccc;
+	width:90%;
+	max-width:1000px;
+	margin:auto;
+	display:flex;
+	flex-flow:row wrap;
+}
+ 
+body {
+	background:aqua;
+}
+ 
+header {
+	background:#ccffcc;
+	width:100%;
+	padding:20px;
+	display: flex;
+	justify-content:space-between;
+	align-items:center;
+ 
+	flex-direction:row;
+	flex-wrap:wrap;
+}
+ 
+header .logo {
+	color:#fff;
+	font-size:30px;
+   
+}
+ 
+header .logo img {
+	width:90px;
+	vertical-align: top;
+}
+ 
+header .logo a {
+	color:#fff;
+	text-decoration: none;
+	line-height:50px;
+}
+ 
+header nav {
+	width:50%;
+	display:flex;
+	flex-wrap:wrap;
+	align-items:center;
+}
+ 
+header nav a {
+	background:green;
+	color:#fff;
+	text-align: center;
+	text-decoration: none;
+	padding:10px;
+	flex-grow:1;
+}
+ 
+header nav a:hover {
+	background:#e74c3c;
+}
+ 
+.main {
+	background:#fff;
+	padding:20px;
+ 
+	flex:1 1 70%;
+}
+ 
+.main article {
+	margin-bottom: 20px;
+	padding-bottom:20px;
+	border-bottom:1px solid #000;
+}
+ 
+.main article:nth-last-child(1){
+	margin-bottom: 0;
+	padding-bottom: 0;
+	border-bottom:none;
+}
+ 
+aside {
+	background:#ff5050;
+	padding:20px;
+	flex:1 1 30%;
+ 
+	display: flex;
+	flex-wrap:wrap;
+	flex-direction:column;
+	justify-content:flex-start;
+}
+ 
+aside .widget {
+	background: #d35400;
+	height:150px;
+	margin:10px;
+    
+}
+.imagen{
+    margin-bottom: 20%;
+    text-align: center;
+}
+ 
+footer {
+	background:#2c3e50;
+	width: 100%;
+	padding:20px;
+	display: flex;
+	flex-wrap:wrap;
+	justify-content:space-between;
+}
+ 
+footer .links {
+	background:#c0392b;
+	display:flex;
+	flex-wrap:wrap;
+}
+ 
+footer .links a {
+	flex-grow:1;
+ 
+	color:#fff;
+	padding:10px;
+	text-align: center;
+	text-decoration:none;
+}
+ 
+footer .links a:hover {
+	background:#E74C3C;
+}
+ 
+footer .social {
+	background:#e67e22;
+}
+ 
+footer .social a {
+	color:#fff;
+	text-decoration: none;
+	padding:10px;
+	display: inline-block;
+}
+ 
+@media screen and (max-width: 800px) {
+	.contenedor {
+		flex-direction:column;
+	}
+ 
+	header {
+		flex-direction:column;
+		padding:0;
+	}
+ 
+	header .logo {
+		margin:20px 0;
+	}
+ 
+	header nav {
+		width: 100%;
+	}
+ 
+	aside {
+		flex-direction:row;
+		flex:0;
+	}
+ 
+	aside .widget {
+		flex-grow:1;
+	}
+}
+ 
+@media screen and (max-width: 600px) {
+	aside {
+		flex-direction:column;
+	}
+ 
+	footer {
+		justify-content:space-around;
+	}
+}
+fieldset {
+	background-color:#00cccc;
+}
+legend {
+	color:#00264d;
+}
+.social {
+	position: fixed;
+	left: 0; 
+	top: 200px;
+	z-index: 2000;
+}
+ 
+	.social ul {
+		list-style: none;
+	}
+ 
+	.social ul li a {
+		display: inline-block;
+		color:#fff;
+		background: #000;
+		padding: 10px 15px;
+		text-decoration: none;
+		-webkit-transition:all 500ms ease;
+		-o-transition:all 500ms ease;
+		transition:all 500ms ease;
+	}
+ 
+	.social ul li .icon-facebook {background:#3b5998;}
+	.social ul li .icon-twitter {background: #00abf0;}
+	.social ul li .icon-googleplus {background: #d95232;}
+	.social ul li .icon-pinterest {background: #ae181f;}
+	.social ul li .icon-mail {background: #666666;}
+ 
+	.social ul li a:hover {
+		padding: 10px 30px;
+	}
+section.galeria { 
+    margin:0 auto;
+    -ms-flex-wrap: wrap;
+    -ms-flex-direction: column;
+    -webkit-flex-flow: row wrap; 
+    flex-flow: row wrap; 
+    display: -webkit-box;
+    display: flex;
+    display: -ms-flexbox; /*IE 10*/
+    padding: 5%;
+    padding-bottom: 2%;
+}
+section.galeria div { 
+    -webkit-box-flex: auto;
+    -ms-flex: auto;
+    flex: 300px; 
+    width: 300px; 
+    padding: 0.2em; 
+}
+section.galeria div img { 
+    width: 100%;
+    height: auto; 
+    max-height: 300px;
+    max-width: 300px;
+} 
+section.galeria div span { 
+    position: relative;
+    display: block;
+    text-align: center;
+} 
+ /*Media Queries*/
+ @media screen and (max-width: 400px) {
+    section.galeria div { 
+        margin: 0; 
+    }
+    section.galeria { 
+        padding: 0; 
+    }
+}
