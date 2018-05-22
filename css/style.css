@@ -268,3 +268,9 @@ section.galeria div span {
         padding: 0; 
     }
 }
+a:hover {
+    color:cyan;
+}
+a:active {
+    color: #cb3ae5;
+}
